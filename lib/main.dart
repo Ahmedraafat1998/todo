@@ -93,7 +93,7 @@ class _MyWidgetState extends State<todo> {
           ),
           actions: [
             IconButton(
-              onPressed: () {},
+              onPressed: () {deleteall();},
               icon: Icon(Icons.delete_forever),
             )
           ]),
