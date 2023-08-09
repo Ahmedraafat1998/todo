@@ -66,7 +66,9 @@ class _MyWidgetState extends State<todo> {
   }
 
   deleteall() {
-    alltask.removeRange(0, alltask.length);
+     setState(() {
+      alltask.removeRange(0, alltask.length);
+    });
   }
 
   numberofcompletetask() {
